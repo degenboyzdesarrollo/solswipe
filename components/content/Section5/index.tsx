@@ -104,6 +104,10 @@ export const Section5 = () => {
                       borderRight: '1px solid rgb(255,255,255,0.3)',
                       borderBottom: '2px solid rgb(255,255,255,0.3)',
                       padding: '50px 50px 15px 50px',
+                      '@media screen and (max-width: 957px)': {
+                        fontSize: '14px',
+                        padding: '50px 20px 15px 20px',
+                      },
                     }}>
                     <Box sx={{ width: '100%' }}>
                       <Text css={{ textAlign: 'center' }}>{item.data2}</Text>
@@ -117,6 +121,10 @@ export const Section5 = () => {
                       borderLeft: '1px solid rgb(255,255,255,0.3)',
                       borderBottom: '2px solid rgb(255,255,255,0.3)',
                       padding: '50px 50px 15px 50px',
+                      '@media screen and (max-width: 957px)': {
+                        fontSize: '14px',
+                        padding: '50px 20px 15px 20px',
+                      },
                     }}>
                     <Box sx={{ width: '100%' }}>
                       <Text css={{ textAlign: 'center' }}>{item.data3}</Text>

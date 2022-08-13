@@ -13,7 +13,7 @@ export const Table2Col1 = () => {
           borderBottom: '2px solid rgb(255,255,255,0.3)',
           padding: '40px 20px',
         }}>
-        <Text size={14}>Card Issuance Fee</Text>
+        <Text size={14}>Card Issuance Fee*</Text>
       </Box>
       <Box
         sx={{
@@ -48,7 +48,7 @@ export const Table2Col1 = () => {
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
           padding: '38px 20px ',
-          '@media (max-width:450px)': { padding: '35px 20px ' },
+          '@media (max-width:450px)': { padding: '36px 20px ' },
         }}>
         <Text size={14}>Check Balance Fee (ATM)</Text>
       </Box>
