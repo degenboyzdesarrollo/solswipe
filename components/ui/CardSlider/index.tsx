@@ -52,7 +52,7 @@ export const CardSlider: FC = () => {
                 marginBottom: '2rem',
                 fontSize: '2.2rem',
                 '@media screen and (max-width: 1100px)': {
-                  fontSize: '1.2rem',
+                  fontSize: '1rem',
                 },
               }}
               h3
@@ -78,7 +78,7 @@ export const CardSlider: FC = () => {
                 marginBottom: '2rem',
                 fontSize: '2.2rem',
                 '@media screen and (max-width: 1100px)': {
-                  fontSize: '1.2rem',
+                  fontSize: '1rem',
                 },
               }}
             >
@@ -103,7 +103,7 @@ export const CardSlider: FC = () => {
                 marginBottom: '2rem',
                 fontSize: '2.2rem',
                 '@media screen and (max-width: 1100px)': {
-                  fontSize: '1.2rem',
+                  fontSize: '1rem',
                 },
               }}
             >
