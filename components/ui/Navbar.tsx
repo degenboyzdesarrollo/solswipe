@@ -26,19 +26,19 @@ export const Navbar = () => {
         {/* Menu de navbar */}
         <Box display='flex' sx={{ gap: '30px' }}>
           {/* //* 1 */}
-          <NextLink href='#cardTiers'>
+          <NextLink href='/#cardTiers'>
             <Link color='text'>Card Tiers</Link>
           </NextLink>
           {/* //* 2 */}
-          <NextLink href='#advantages'>
+          <NextLink href='/#advantages'>
             <Link color='text'>Advantages</Link>
           </NextLink>
           {/* //* 3 */}
-          <NextLink href='#getCards'>
+          <NextLink href='/#getCards'>
             <Link color='text'>Get Cards</Link>
           </NextLink>
           {/* //* 4 */}
-          <NextLink href='#partnership'>
+          <NextLink href='/#partnership'>
             <Link color='text'>Partnership</Link>
           </NextLink>
           {/* //* 5 */}
@@ -46,13 +46,9 @@ export const Navbar = () => {
             <Link color='text'>Utility</Link>
           </NextLink>
           {/* //* 6 */}
-          <Link
-            color='text'
-            onClick={() => {
-              router.push('https://solswipe.io/Solswipe_whitepaper.pdf');
-            }}>
-            Whitepaper
-          </Link>
+          <NextLink href='/assets/whitepaper.pdf'>
+            <Link color='text'>Whitepaper</Link>
+          </NextLink>
         </Box>
       </Container>
     </Box>

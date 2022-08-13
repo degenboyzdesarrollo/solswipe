@@ -43,25 +43,25 @@ export const NavbarMobile = () => {
               }}>
               {/* //* 1 */}
               <Dropdown.Item key='Card Tiers'>
-                <NextLink href='#cardTiers'>
+                <NextLink href='/#cardTiers'>
                   <Link color='text'>Card Tiers</Link>
                 </NextLink>
               </Dropdown.Item>
               <Dropdown.Item key='Benefits'>
                 {/* //* 2 */}
-                <NextLink href='#advantages'>
+                <NextLink href='/#advantages'>
                   <Link color='text'>Advantages</Link>
                 </NextLink>
               </Dropdown.Item>
               <Dropdown.Item key='Get Cards'>
                 {/* //* 3 */}
-                <NextLink href='#getCards'>
+                <NextLink href='/#getCards'>
                   <Link color='text'>Get Cards</Link>
                 </NextLink>
               </Dropdown.Item>
               <Dropdown.Item key='Partnership'>
                 {/* //* 4 */}
-                <NextLink href='#partnership'>
+                <NextLink href='/#partnership'>
                   <Link color='text'>Partnership</Link>
                 </NextLink>
               </Dropdown.Item>
@@ -73,13 +73,9 @@ export const NavbarMobile = () => {
               </Dropdown.Item>
               <Dropdown.Item key='Whitepaper'>
                 {/* //* 6 */}
-                <Link
-                  color='text'
-                  onClick={() => {
-                    router.push('https://solswipe.io/Solswipe_whitepaper.pdf');
-                  }}>
-                  Whitepaper
-                </Link>
+                <NextLink href='/assets/whitepaper.pdf'>
+                  <Link color='text'>Whitepaper</Link>
+                </NextLink>
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

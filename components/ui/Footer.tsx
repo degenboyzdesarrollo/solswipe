@@ -96,13 +96,9 @@ export const Footer: FC = () => {
               <Link color='text'>Utility</Link>
             </NextLink>
             {/* //* 6 */}
-            <Link
-              color='text'
-              onClick={() => {
-                router.push('https://solswipe.io/Solswipe_whitepaper.pdf');
-              }}>
-              Whitepaper
-            </Link>
+            <NextLink href='/assets/whitepaper.pdf'>
+              <Link color='text'>Whitepaper</Link>
+            </NextLink>
           </Box>
         </Box>
         {/* Abajo    */}

@@ -7,10 +7,9 @@ export const Section1 = () => {
       sx={{
         width: '100%',
         height: '100%',
-      }}
-    >
+      }}>
       <video autoPlay muted loop style={{ width: '100%', height: '100%' }}>
-        <source src="https://solswipe.io/card.mp4" type="video/mp4" />
+        <source src='/assets/utility/herovid2.mp4' type='video/mp4' />
       </video>
     </Box>
   );
