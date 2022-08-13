@@ -56,24 +56,6 @@ const Section1: FC = () => {
           Solana’s First Ever Debit Card
         </Text>
       </Box>
-
-      {/* Bolitas */}
-      <Box sx={{ position: 'absolute', bottom: 0, right: '7%' }}>
-        <Image src='/assets/bolita.svg' alt='bolita' width={170} />
-      </Box>
-      <Box sx={{ position: 'absolute', top: '14%', left: '4%' }}>
-        <Image src='/assets/bolita2.svg' alt='bolita' width={120} />
-      </Box>
-      <Box
-        sx={{
-          position: 'absolute',
-          top: '-4em',
-          right: '-4em',
-          zIndex: '0',
-          margin: '0',
-        }}>
-        <Image src='/assets/bolita2.svg' alt='bolita' width={170} />
-      </Box>
     </Box>
   );
 };
