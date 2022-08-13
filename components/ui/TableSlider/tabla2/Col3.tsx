@@ -12,7 +12,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '53px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
@@ -26,7 +26,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '53px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
@@ -40,7 +40,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '53px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
@@ -54,7 +54,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '53px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
@@ -68,13 +68,15 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '28px 5px 40px 5px',
-          '@media screen and (max-width: 425px)': {
-            padding: '28px 5px 15px 5px',
-          },
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
-          <Text size={14} css={{ textAlign: 'center' }}>
+          <Text
+            css={{
+              textAlign: 'center',
+              fontSize: '12px',
+              '@media (max-width:450px)': { fontSize: '9.5px' },
+            }}>
             Possible Charge by Acquirer Bank ATM
           </Text>
         </Box>
@@ -85,7 +87,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '54px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
@@ -99,7 +101,7 @@ export const Table2Col3 = () => {
           borderLeft: '1px solid rgb(255,255,255,0.3)',
           borderRight: '1px solid rgb(255,255,255,0.3)',
           borderBottom: '2px solid rgb(255,255,255,0.3)',
-          padding: '52px 50px 15px 50px',
+          padding: '40px 20px',
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
