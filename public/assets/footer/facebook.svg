@@ -1,0 +1,19 @@
+<svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_243_6490)">
+<circle cx="24" cy="24.1543" r="24" fill="#9164FB"/>
+</g>
+<g clip-path="url(#clip0_243_6490)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 24.2213C12 30.1873 16.333 35.1483 22 36.1543V27.4873H19V24.1543H22V21.4873C22 18.4873 23.933 16.8213 26.667 16.8213C27.533 16.8213 28.467 16.9543 29.333 17.0873V20.1543H27.8C26.333 20.1543 26 20.8873 26 21.8213V24.1543H29.2L28.667 27.4873H26V36.1543C31.667 35.1483 36 30.1883 36 24.2213C36 17.5843 30.6 12.1543 24 12.1543C17.4 12.1543 12 17.5843 12 24.2213Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_243_6490" x="-50" y="-49.8457" width="148" height="148" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_243_6490"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_243_6490" result="shape"/>
+</filter>
+<clipPath id="clip0_243_6490">
+<rect width="24" height="24" fill="white" transform="translate(12 12.1543)"/>
+</clipPath>
+</defs>
+</svg>
