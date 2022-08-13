@@ -57,6 +57,7 @@ export const StepSlider: FC = () => {
             width: '100%',
             marginTop: '2rem',
             textAlign: 'center',
+            padding: '0rem 2rem',
           },
         }}
       >
@@ -68,7 +69,7 @@ export const StepSlider: FC = () => {
               '-webkit-background-clip': 'text',
               '-webkit-text-fill-color': 'transparent',
               textTransform: 'uppercase',
-              marginBotton: '1rem',
+              marginBotton: '3rem',
             }}
           >
             {stepInfo !== {} && stepInfo.title}
@@ -91,6 +92,9 @@ export const StepSlider: FC = () => {
           sx={{
             display: 'flex',
             justifyContent: 'center',
+            '@media screen and (max-width: 1100px)': {
+              marginTop: '2.5rem',
+            },
           }}
         >
           <Button

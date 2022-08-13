@@ -5,16 +5,17 @@ import { colors } from '../../../const';
 
 export const Section6 = () => {
   return (
-    <Box id='advantages' sx={{ position: 'relative' }}>
+    <Box id="advantages" sx={{ position: 'relative' }}>
       <Container
         fluid
-        display='flex'
-        direction='column'
-        alignItems='center'
+        display="flex"
+        direction="column"
+        alignItems="center"
         css={{
           gap: '25px',
           padding: '100px 0px',
-        }}>
+        }}
+      >
         {/* Arriba */}
         <Box
           sx={{
@@ -22,7 +23,8 @@ export const Section6 = () => {
             flexDirection: 'column',
             gap: '30px',
             width: '50%',
-          }}>
+          }}
+        >
           <Text
             h1
             css={{
@@ -30,7 +32,11 @@ export const Section6 = () => {
               background: 'linear-gradient(to right, #7c49f1, #c9aa24)',
               '-webkit-background-clip': 'text',
               '-webkit-text-fill-color': 'transparent',
-            }}>
+              '@media screen and (max-width: 1100px)': {
+                fontSize: '2rem',
+              },
+            }}
+          >
             Advantages
           </Text>
         </Box>
@@ -43,7 +49,8 @@ export const Section6 = () => {
             '@media screen and (max-width: 1100px)': {
               padding: 0,
             },
-          }}>
+          }}
+        >
           {/* UNO */}
           <Grid
             xs={12}
@@ -53,7 +60,8 @@ export const Section6 = () => {
               '@media screen and (max-width: 1100px)': {
                 padding: '30px',
               },
-            }}>
+            }}
+          >
             <Box
               sx={{
                 gap: '25px',
@@ -63,10 +71,12 @@ export const Section6 = () => {
                 justifyContent: 'center',
                 padding: '70px 30px',
                 background: 'rgba(255, 255, 255, 0.1)',
-              }}>
+              }}
+            >
               <Row
-                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}>
-                <Image src='/assets/section6/manita.svg' alt='manita' />
+                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}
+              >
+                <Image src="/assets/section6/manita.svg" alt="manita" />
               </Row>
               <Text
                 h3
@@ -74,7 +84,8 @@ export const Section6 = () => {
                   background: 'linear-gradient(to right, #7c49f1, #c9aa24)',
                   '-webkit-background-clip': 'text',
                   '-webkit-text-fill-color': 'transparent',
-                }}>
+                }}
+              >
                 Easy Top Up
               </Text>
               <Box sx={{ paddingRight: '50px' }}>
@@ -85,7 +96,8 @@ export const Section6 = () => {
                     '@media screen and (max-width: 1100px)': {
                       fontSize: '1.6rem',
                     },
-                  }}>
+                  }}
+                >
                   Firts debit card to allow crypto reloading via phatom &
                   metamask.
                 </Text>
@@ -101,7 +113,8 @@ export const Section6 = () => {
               '@media screen and (max-width: 1100px)': {
                 padding: '30px',
               },
-            }}>
+            }}
+          >
             <Box
               sx={{
                 gap: '25px',
@@ -111,10 +124,12 @@ export const Section6 = () => {
                 justifyContent: 'center',
                 padding: '70px 30px',
                 background: 'rgba(255, 255, 255, 0.1)',
-              }}>
+              }}
+            >
               <Row
-                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}>
-                <Image src='/assets/section6/flechitas.svg' alt='manita' />
+                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}
+              >
+                <Image src="/assets/section6/flechitas.svg" alt="manita" />
               </Row>
               <Text
                 h3
@@ -122,7 +137,8 @@ export const Section6 = () => {
                   background: 'linear-gradient(to right, #7c49f1, #c9aa24)',
                   '-webkit-background-clip': 'text',
                   '-webkit-text-fill-color': 'transparent',
-                }}>
+                }}
+              >
                 Flexible
               </Text>
               <Box sx={{ paddingRight: '50px' }}>
@@ -133,7 +149,8 @@ export const Section6 = () => {
                     '@media screen and (max-width: 1100px)': {
                       fontSize: '1.6rem',
                     },
-                  }}>
+                  }}
+                >
                   Supports SOL/USDC and tokens from major chains.
                 </Text>
               </Box>
@@ -148,7 +165,8 @@ export const Section6 = () => {
               '@media screen and (max-width: 1100px)': {
                 padding: '30px',
               },
-            }}>
+            }}
+          >
             <Box
               sx={{
                 gap: '25px',
@@ -158,10 +176,12 @@ export const Section6 = () => {
                 justifyContent: 'center',
                 padding: '70px 30px',
                 background: 'rgba(255, 255, 255, 0.1)',
-              }}>
+              }}
+            >
               <Row
-                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}>
-                <Image src='/assets/section6/mundo.svg' alt='manita' />
+                css={{ justifyContent: 'start', '&>div': { margin: '0px' } }}
+              >
+                <Image src="/assets/section6/mundo.svg" alt="manita" />
               </Row>
               <Text
                 h3
@@ -169,7 +189,8 @@ export const Section6 = () => {
                   background: 'linear-gradient(to right, #7c49f1, #c9aa24)',
                   '-webkit-background-clip': 'text',
                   '-webkit-text-fill-color': 'transparent',
-                }}>
+                }}
+              >
                 Avalible Worldwide
               </Text>
               <Box sx={{ paddingRight: '50px' }}>
@@ -180,7 +201,8 @@ export const Section6 = () => {
                     '@media screen and (max-width: 1100px)': {
                       fontSize: '1.6rem',
                     },
-                  }}>
+                  }}
+                >
                   Can be used in any POS, online sales, and Visa-accepting ATM.
                 </Text>
               </Box>
@@ -189,10 +211,10 @@ export const Section6 = () => {
         </Grid.Container>
         {/* Bolitas */}
         <Box sx={{ position: 'absolute', bottom: 0, right: 0 }}>
-          <Image src='/assets/bolita.svg' alt='bolitas' width={130} />
+          <Image src="/assets/bolita.svg" alt="bolitas" width={130} />
         </Box>
         <Box sx={{ position: 'absolute', top: '5em', left: '-5em' }}>
-          <Image src='/assets/bolita.svg' alt='bolitas' width={130} />
+          <Image src="/assets/bolita.svg" alt="bolitas" width={130} />
         </Box>
       </Container>
     </Box>
