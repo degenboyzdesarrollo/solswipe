@@ -89,8 +89,8 @@ export const Section6 = () => {
                       fontSize: '1.6rem',
                     },
                   }}>
-                  Firts debit card to allow crypto reloading via phatom &
-                  metamask.
+                  First debit card to allow crypto reloading via Phantom &
+                  Metamask
                 </Text>
               </Box>
             </Box>
