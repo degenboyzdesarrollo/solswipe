@@ -173,7 +173,7 @@ export const Section6 = () => {
                   '-webkit-background-clip': 'text',
                   '-webkit-text-fill-color': 'transparent',
                 }}>
-                Avalible Worldwide
+                Available Worldwide
               </Text>
               <Box sx={{ paddingRight: '50px' }}>
                 <Text
