@@ -50,8 +50,8 @@ export const Section5 = () => {
               alignItems: 'center',
               gap: '10px',
             }}>
-            <Text>Gold Metal</Text>
-            <Image src='/assets/section5/goldCard.svg' alt='tarjeta' />
+            <Text>Silver Metal</Text>
+            <Image src='/assets/section5/whiteCard.svg' alt='tarjeta' />
           </Grid>
           <Grid
             xs={2}
@@ -63,8 +63,8 @@ export const Section5 = () => {
               alignItems: 'center',
               gap: '10px',
             }}>
-            <Text>Silver Metal</Text>
-            <Image src='/assets/section5/whiteCard.svg' alt='tarjeta' />
+            <Text>Gold Metal</Text>
+            <Image src='/assets/section5/goldCard.svg' alt='tarjeta' />
           </Grid>
         </Grid.Container>
         {/* Content */}
@@ -96,23 +96,7 @@ export const Section5 = () => {
                       <Text css={{ textAlign: 'center' }}>{item.data1}</Text>
                     </Box>
                   </Grid>
-                  <Grid
-                    xs={2}
-                    css={{
-                      background: 'rgb(255,255,255,0.03)',
-                      borderLeft: '1px solid rgb(255,255,255,0.3)',
-                      borderRight: '1px solid rgb(255,255,255,0.3)',
-                      borderBottom: '2px solid rgb(255,255,255,0.3)',
-                      padding: '50px 50px 15px 50px',
-                      '@media screen and (max-width: 957px)': {
-                        fontSize: '14px',
-                        padding: '50px 20px 15px 20px',
-                      },
-                    }}>
-                    <Box sx={{ width: '100%' }}>
-                      <Text css={{ textAlign: 'center' }}>{item.data2}</Text>
-                    </Box>
-                  </Grid>
+                  {/* SEGUNDO */}
                   <Grid
                     xs={2}
                     css={{
@@ -128,6 +112,24 @@ export const Section5 = () => {
                     }}>
                     <Box sx={{ width: '100%' }}>
                       <Text css={{ textAlign: 'center' }}>{item.data3}</Text>
+                    </Box>
+                  </Grid>
+                  {/* TERCERO */}
+                  <Grid
+                    xs={2}
+                    css={{
+                      background: 'rgb(255,255,255,0.03)',
+                      borderLeft: '1px solid rgb(255,255,255,0.3)',
+                      borderRight: '1px solid rgb(255,255,255,0.3)',
+                      borderBottom: '2px solid rgb(255,255,255,0.3)',
+                      padding: '50px 50px 15px 50px',
+                      '@media screen and (max-width: 957px)': {
+                        fontSize: '14px',
+                        padding: '50px 20px 15px 20px',
+                      },
+                    }}>
+                    <Box sx={{ width: '100%' }}>
+                      <Text css={{ textAlign: 'center' }}>{item.data2}</Text>
                     </Box>
                   </Grid>
                 </>
@@ -187,6 +189,30 @@ export const Section5 = () => {
                         </Text>
                       </Box>
                     </Grid>
+                    {/* SEGUNDP */}
+                    <Grid
+                      xs={2}
+                      css={{
+                        width: '100%',
+                        background: 'rgb(255,255,255,0.03)',
+                        borderLeft: '1px solid rgb(255,255,255,0.3)',
+                        borderBottom: '2px solid rgb(255,255,255,0.3)',
+                        padding: '50px 50px 15px 50px',
+                        '@media screen and (max-width: 957px)': {
+                          padding: '50px 0px 15px 0px',
+                        },
+                      }}>
+                      <Box
+                        sx={{
+                          width: '100%',
+                          '@media screen and (max-width: 957px)': {
+                            fontSize: '14px',
+                          },
+                        }}>
+                        <Text css={{ textAlign: 'center' }}>{item.data3}</Text>
+                      </Box>
+                    </Grid>
+                    {/* TERCERo */}
                     <Grid
                       xs={2}
                       css={{
@@ -209,28 +235,6 @@ export const Section5 = () => {
                           }}>
                           {item.data2}
                         </Text>
-                      </Box>
-                    </Grid>
-                    <Grid
-                      xs={2}
-                      css={{
-                        width: '100%',
-                        background: 'rgb(255,255,255,0.03)',
-                        borderLeft: '1px solid rgb(255,255,255,0.3)',
-                        borderBottom: '2px solid rgb(255,255,255,0.3)',
-                        padding: '50px 50px 15px 50px',
-                        '@media screen and (max-width: 957px)': {
-                          padding: '50px 0px 15px 0px',
-                        },
-                      }}>
-                      <Box
-                        sx={{
-                          width: '100%',
-                          '@media screen and (max-width: 957px)': {
-                            fontSize: '14px',
-                          },
-                        }}>
-                        <Text css={{ textAlign: 'center' }}>{item.data3}</Text>
                       </Box>
                     </Grid>
                   </>

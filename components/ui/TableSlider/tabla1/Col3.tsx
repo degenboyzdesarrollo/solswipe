@@ -15,8 +15,8 @@ export const Col3 = () => {
           alignItems: 'center',
           gap: '10px',
         }}>
-        <Text>Gold Metal</Text>
-        <Image src='/assets/section5/goldCard.svg' alt='tarjeta' />
+        <Text>Silver Metal</Text>
+        <Image src='/assets/section5/whiteCard.svg' alt='tarjeta' />
       </Box>
       <Box
         sx={{
@@ -27,7 +27,7 @@ export const Col3 = () => {
           padding: '50px 50px 15px 50px',
         }}>
         <Box sx={{ width: '100%' }}>
-          <Text css={{ textAlign: 'center' }}>10</Text>
+          <Text css={{ textAlign: 'center' }}>1</Text>
         </Box>
       </Box>
       <Box
@@ -39,7 +39,7 @@ export const Col3 = () => {
           padding: '50px 50px 15px 50px',
         }}>
         <Box sx={{ width: '100%' }}>
-          <Text css={{ textAlign: 'center' }}>$20,000 USD</Text>
+          <Text css={{ textAlign: 'center' }}>$1,000 USD</Text>
         </Box>
       </Box>
     </Box>

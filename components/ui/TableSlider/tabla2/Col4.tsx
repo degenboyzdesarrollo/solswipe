@@ -44,7 +44,7 @@ export const Table2Col4 = () => {
         }}>
         <Box sx={{ width: '100%' }}>
           <Text size={14} css={{ textAlign: 'center' }}>
-            2.75%
+            2.5%
           </Text>
         </Box>
       </Box>

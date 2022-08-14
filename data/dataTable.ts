@@ -2,14 +2,14 @@ export const dataTable1 = [
   {
     title: 'Requirements',
     data1: '0',
-    data2: '10',
     data3: '1',
+    data2: '10',
   },
   {
     title: 'Minimum Load',
     data1: '0',
-    data2: '$20,000 USD',
     data3: '$1,000 USD',
+    data2: '$20,000 USD',
   },
 ];
 
@@ -17,22 +17,22 @@ export const dataTable1 = [
 
 export const dataTable2 = [
   {
-    title: 'Card Issuance Fee',
+    title: 'Card Issuance Fee*',
     data1: '$250 USD',
-    data2: '$550 USD',
     data3: '$550 USD',
+    data2: '$550 USD',
   },
   {
-    title: 'Card Replacement Fee',
+    title: 'Card Replacement Fee*',
     data1: '$100 USD',
-    data2: '$200 USD',
     data3: '$200 USD',
+    data2: '$200 USD',
   },
   {
     title: 'Card Loading Fee',
     data1: '3%',
-    data2: '2.5%',
     data3: '2.75%',
+    data2: '2.5%',
   },
   {
     title: 'ATM Withdrawal fee (%)*',
@@ -53,7 +53,7 @@ export const dataTable2 = [
   {
     title: 'Loading Cap',
     data1: '30,000/Month',
-    data2: '75,000/Month',
-    data3: '150,000/Month',
+    data2: '150,000/Month',
+    data3: '75,000/Month',
   },
 ];
