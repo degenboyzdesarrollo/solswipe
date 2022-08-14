@@ -36,7 +36,7 @@ export const Section2: FC = () => {
               flexDirection: 'column',
             },
           }}>
-          {/* <Image src="/assets/section2/visa.svg" alt="Logo" width={140} /> */}
+          <Image src='/assets/section2/jdb.svg' alt='Logo' width={140} />
           <Image
             src='/assets/section2/ethereum.png'
             alt='Logo'

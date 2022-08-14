@@ -42,36 +42,36 @@ export const NavbarMobile = () => {
                 width: '100%',
               }}>
               {/* //* 1 */}
-              <Dropdown.Item key='Card Tiers'>
+              <Dropdown.Item key='Card Tiers' textValue='Card Tiers'>
                 <NextLink href='/#cardTiers'>
                   <Link color='text'>Card Tiers</Link>
                 </NextLink>
               </Dropdown.Item>
-              <Dropdown.Item key='Benefits'>
+              <Dropdown.Item key='Advantages' textValue='Advantages'>
                 {/* //* 2 */}
                 <NextLink href='/#advantages'>
                   <Link color='text'>Advantages</Link>
                 </NextLink>
               </Dropdown.Item>
-              <Dropdown.Item key='Get Cards'>
+              <Dropdown.Item key='Get Cards' textValue='Get Cards'>
                 {/* //* 3 */}
                 <NextLink href='/#getCards'>
                   <Link color='text'>Get Cards</Link>
                 </NextLink>
               </Dropdown.Item>
-              <Dropdown.Item key='Partnership'>
+              <Dropdown.Item key='nft' textValue='nft'>
+                {/* //* 5 */}
+                <NextLink href='/nft'>
+                  <Link color='text'>NFT</Link>
+                </NextLink>
+              </Dropdown.Item>
+              <Dropdown.Item key='Partnership' textValue='Partnership'>
                 {/* //* 4 */}
                 <NextLink href='/#partnership'>
                   <Link color='text'>Partnership</Link>
                 </NextLink>
               </Dropdown.Item>
-              <Dropdown.Item key='Utility'>
-                {/* //* 5 */}
-                <NextLink href='/utility'>
-                  <Link color='text'>Utility</Link>
-                </NextLink>
-              </Dropdown.Item>
-              <Dropdown.Item key='Whitepaper'>
+              <Dropdown.Item key='Whitepaper' textValue='Whitepaper'>
                 {/* //* 6 */}
                 <NextLink href='/assets/whitepaper.pdf'>
                   <Link color='text'>Whitepaper</Link>

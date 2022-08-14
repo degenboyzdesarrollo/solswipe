@@ -38,12 +38,12 @@ export const Navbar = () => {
             <Link color='text'>Get Cards</Link>
           </NextLink>
           {/* //* 4 */}
-          <NextLink href='/#partnership'>
-            <Link color='text'>Partnership</Link>
+          <NextLink href='/nft'>
+            <Link color='text'>NFT</Link>
           </NextLink>
           {/* //* 5 */}
-          <NextLink href='/utility'>
-            <Link color='text'>Utility</Link>
+          <NextLink href='/#partnership'>
+            <Link color='text'>Partnership</Link>
           </NextLink>
           {/* //* 6 */}
           <NextLink href='/assets/whitepaper.pdf'>
