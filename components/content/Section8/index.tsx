@@ -225,7 +225,7 @@ export const Section8 = () => {
                     padding: '0 20px 0 20px',
                   },
                 }}>
-                Whitelabelling our whole card providing backend system for your
+                White labelling our whole card providing backend system for your
                 project.
               </Text>
             </Box>
