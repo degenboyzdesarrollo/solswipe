@@ -15,7 +15,7 @@ export const Col2 = () => {
           alignItems: 'center',
           gap: '10px',
         }}>
-        <Text>Premium Black Plastic</Text>
+        <Text>Black Plastic</Text>
         <Image src='/assets/section5/blackCard.svg' alt='tarjeta' />
       </Box>
       <Box

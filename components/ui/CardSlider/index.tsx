@@ -54,7 +54,7 @@ export const CardSlider: FC = () => {
                 },
               }}
               h3>
-              Premium Black Plastic
+              Black Plastic
             </Text>
             <Image
               src={`/assets/cards/${backOrFrontCard}-card-black.png`}

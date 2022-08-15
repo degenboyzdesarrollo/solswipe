@@ -6,7 +6,7 @@ import { CardSlider } from '../../ui/CardSlider';
 
 export const Section4 = () => {
   return (
-    <Box id="cardTiers">
+    <Box id='cardTiers'>
       <Box
         sx={{
           width: '100%',
@@ -14,8 +14,7 @@ export const Section4 = () => {
           flexDirection: 'column',
           alignItems: 'center',
           padding: '50px 0',
-        }}
-      >
+        }}>
         <Text
           h1
           css={{
@@ -26,21 +25,8 @@ export const Section4 = () => {
               fontSize: '2.8rem',
               textAlign: 'center',
             },
-          }}
-        >
+          }}>
           Solswipe Card Tiers
-        </Text>
-        <Text
-          css={{
-            '@media screen and (max-width: 1100px)': {
-              textAlign: 'center',
-              margin: '0 auto',
-              padding: '0 1rem',
-            },
-          }}
-        >
-          Select from 1 of our 3 classy metallic cards, each with their added
-          benefits
         </Text>
       </Box>
       <Box
@@ -52,8 +38,7 @@ export const Section4 = () => {
           '@media screen and (max-width: 1100px)': {
             margin: '1rem 0 5rem 0',
           },
-        }}
-      >
+        }}>
         <CardSlider />
       </Box>
     </Box>
