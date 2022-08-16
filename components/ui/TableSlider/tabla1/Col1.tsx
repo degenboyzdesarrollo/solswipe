@@ -25,7 +25,7 @@ export const Col1 = () => {
           borderBottom: '2px solid rgb(255,255,255,0.3)',
           padding: '50px 20px 8px 20px',
         }}>
-        <Text size={20}>Minimum Load</Text>
+        <Text size={20}>First time minimum load</Text>
       </Box>
     </Box>
   );

@@ -6,7 +6,7 @@ export const dataTable1 = [
     data2: '10',
   },
   {
-    title: 'Minimum Load',
+    title: 'First time minimum load',
     data1: '0',
     data3: '$1,000 USD',
     data2: '$20,000 USD',

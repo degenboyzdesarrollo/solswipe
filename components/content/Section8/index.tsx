@@ -26,10 +26,6 @@ export const Section8 = () => {
             }}>
             Solswipe Partnership
           </Text>
-          <Text>
-            we are open to all kinds of partnerships with projects who want to
-            integrate our cards or to customize your own Debit card brand
-          </Text>
         </Box>
         {/* ABajo */}
         <Box
@@ -225,7 +221,7 @@ export const Section8 = () => {
                     padding: '0 20px 0 20px',
                   },
                 }}>
-                White labelling our whole card providing backend system for your
+                White labeling our whole card providing backend system for your
                 project.
               </Text>
             </Box>
