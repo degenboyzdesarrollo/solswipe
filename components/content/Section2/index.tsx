@@ -43,7 +43,7 @@ export const Section2: FC = () => {
             width={140}
             css={{}}
           />
-          <Image src='/assets/section2/unionPay.svg' alt='Logo' width={140} />
+          <Image src='/assets/section2/Disrupt.svg' alt='Logo' width={140} />
           <Image src='/assets/section2/solana.svg' alt='Logo' width={140} />
           <Image
             src='/assets/section2/binanceChain.svg'
